@@ -49,3 +49,4 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('/comments', [CommentsController::class, 'show']);
     Route::post('/comments', [CommentsController::class, 'store']);
 });
+

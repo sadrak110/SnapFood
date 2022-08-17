@@ -23,6 +23,8 @@ class IsSellerCompelitedProfile
             return redirect()->route('restaurant_profile.create');
         }
 
+
+        
         return $next($request);
     }
 }

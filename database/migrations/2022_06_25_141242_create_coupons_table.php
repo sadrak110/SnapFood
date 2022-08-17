@@ -36,7 +36,9 @@ return new class extends Migration
             // When the voucher begins
             $table->timestamp('starts_at');
             // When the voucher ends
-            // $table->timestamp('expires_at');
+             // $table->timestamp('ends_at');
+            // $table->timestamp('ends_at');
+
 
             $table->timestamps();
             $table->softDeletes();
