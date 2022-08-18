@@ -17,8 +17,13 @@ class AppRoleSeeder extends Seeder
     {
 
         AppRole::create(['role_name' => 'Manager']);
+
         AppRole::create(['role_name' => 'Admin']);
+
         AppRole::create(['role_name' => 'Seller']);
+
         AppRole::create(['role_name' => 'User']);
+        
     }
+
 }
