@@ -2,3 +2,4 @@
 *.blade.php linguist-language=Blade
 *.html linguist-language=HTML
 *.css linguist-language=CSS
+*.js linguist-language=20
